@@ -1,0 +1,161 @@
+26-11-24
+
+Html:
+-It is used to create the structure of the web app.
+-It is used to display data to user on browser.
+-Hypertext markup language.
+-latest version html5.
+
+-it is tag basis language.
+<tag>
+
+-in html we have two types of tags
+1.paired tag: <starting tag> </endingtag>
+2.unpaired tag: <single tag>
+
+*step to create html file
+step1: ctreate html file filename.html or filename.htm
+step2:write code on it.
+step3:eexecute it on browser.
+
+DOCTYPE html:
+-it tells search engine this is html type of document belong to version5.
+
+head:it contains external linal links and meta data in it.
+body: write code to display on browser.
+
+meta data: meta tag gives information about data.
+
+task:
+display=a2+b2=a2+2ab+b2(sup tag)
+display=H2O(sub tag)
+
+Element:it contain starting tag,ending tag,contain of it.
+<startingtag attribute="Value">content</end tag>
+
+attribute:it provide additional information about tag.
+-it always strt in starting tag
+-it comes with key and alue pairs format.
+
+*in html we have 2 types of elements.
+1.Block element: 
+-The element which takes 100% width of its screen.
+-it always start on a new line.
+-ex:h1-h6,p,li,table,form.
+
+2.Inline element:
+-The element which takes required width of it.
+-it will never start on a new line.
+-ex:b,i,u,img,a.
+
+*types of list:
+1.ordered list: type=>num,A,B,C,a,b,c,I,II,III,i,ii,iii
+2.Unordered list:disc,circle,square,none.
+3.description list:
+--dl:description list
+--dt:define term
+--dd:define definition.
+
+*insert images by using relative path
+
+Q)What is the difference between html and html5?
+or
+Q)What are the features of html5?
+
+1.symantic element introduce:the elements which has meaning in its name.
+ex:header,footer,nav,main,section,aside.
+
+2.new input type,new attribute and new tag.
+
+3.multimedia element introduce:we can insert video file.
+
+4.html api introduce:
+-Geo location:it return user current location.
+              if you want to use it,gps must have been installed in system.
+-Drag and drop:grabbing an object from one location and put at another place.
+-web worker:it is small javascript code which execute at backend of browser without affecting its current execution.
+-web storage:it is used to store user data on browser.
+             -there are two types
+             1.local storage:it is used to store user data permanantly.
+             2.session storage:itis used to store user data in a limited time.
+-SSE(server sent event):it allows us to get atomatic update from server.
+
+*iframe: it is use to create small window in webpage
+-we can use iframe tag for-
+    1.display  youtube video.
+    2.display googlemap location.
+    3.display one website into another website. 
+
+============================================================================================================================
+27/11/24
+
+*form:it is use to get data from user.
+-to submit forms we have two method.
+
+get method: -form data visible in browser url.
+            -with get data we cannot send confidential data.
+            -there is character limitation with get method to send through url.
+
+post method: -form data will not be visible to user it will save on body object.
+             -with post method we can submit confidential data.
+             -there is no character limitation to submit data.
+
+================================================================================================================================
+*css:-it is used to design webapp and make it responsive.
+-css stands for cascading style sheets.
+-latest version of css is css3.
+
+Q.what are the types of css?
+or
+Q.what are the ways to use css?
+    1.inline css.
+    2.internal css.
+    3.external css.
+
+*Selectors in css: selecting an element
+    1.element or tag name selector:in this we use element or tag name to apply css property.
+    2.group selector:in this we make group selector to apply css property.
+    3.id selector(#):used to apply css property to single elements.
+    4.class selector(.):when you have to apply bunch of css property to specific element in that case we use it.
+    5.universal selector(*):when we have to use all css property to all element available in html page.
+
+*border: a line drown around an element.
+*Box-model:it contains four points:
+    1.content - it can be any image or text.
+    2.padding - it is used to clear space between content and element border.
+    3.border - a line drown around an element.
+    4.Margin - it is used to clear area outside element border.
+
+*visibility:hidden;
+*display:none;
+
+*position:
+-it is use to move element applying left,right,to,bottom property value.
+-by default every element has position:static;
+    1.position:static;(default)
+    2.position:relative;element will move from left,right,top and bottom side.
+    3.position:absolute;when we want tomove child element according to its parent element.
+    4.position:fixed;when we have to fixed on screen window.
+    5.position:sticky;when we have to stick element on screen window.
+
+*media query: it is used to apply different style rule to an element accoprding to different screen width;
+
+syntax: @media screen and (screen-width){
+    css code
+}
+
+device screen-width>=1200px xl screen
+device screen-width>=992px lg screen
+device screen-width>=768px md screen
+device screen-width>=576px sm screen
+device screen-width <576px xsm screen
+
+screen width
+1.max-width: css property will applicable from its minimum width to maximum width.
+2.min-width:css property will be applicable from its minimum width to above width.
+
+===========================================================================================================
+28-11-24
+
+*box-sizing:it include element border size and element padding size in its actual width.
+-->box-sizing:border-box;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formate{
+            width: 600px;
+            height: 400px;
+            border: solid 2px black;
+            background-color: lightgreen;
+            position: relative;
+        }
+        .left_corner{
+            border: black  2px;
+    width: 200px;
+    text-align: left;
+        }
+        .right_corner{
+            border: black 2px;
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+        }
+
+        .bottom_left{
+            border: black 2px;
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+        }
+
+        .bottom_right{
+            border: black 2px;
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+        }
+
+        .center{
+            border: 2px black;
+    text-align: center;
+    padding: 167px 15px
+        }
+    </style>
+</head>
+<body>
+    <div class="formate">
+    <div class="left_corner"><b>TOP-LEFT</b></div>
+    <div class="right_corner"><b>TOP-RIGHT</b></div>
+    <div class="center"><b>CENTER</b></div>
+    <div class="bottom_left"><b>BOTTOM-LEFT</b></div>
+    <div class="bottom_right"><b>BOTTOM-RIGHT</b></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+header{
+    background-color: lightgreen;
+    border-bottom: 5px solid blue;
+    padding: 10px;
+}
+
+.kaj{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 141px;
+    top:5px;
+}
+.position-fixed img{
+    height: 30px;
+}
+.position-fixed{
+    border: 2px solid red;
+    width: 30px;
+    padding-right: 5px;
+    position: relative;
+    left: 980px;
+}
