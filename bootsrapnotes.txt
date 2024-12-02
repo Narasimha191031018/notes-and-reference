@@ -1,0 +1,27 @@
+28-11-24
+
+Bootstrap:
+-Framework for html,css and javascript.
+-it makes web app attractive,responsive and mobile friendly.
+-it provides inbuilt classes.
+-latest version of bootstrap is bootstrap5.
+
+*there are two ways to use bootsrap:
+    1,By using CDN link: for this you must need internet in your system.
+    2.by downloading:for downloading we need internet connection and for use it not require internet.
+
+*official website.
+getbootstrap.com
+
+*grid:
+-it is used to manage layout of webapp by using inbuilt classes.
+    1.row class
+    2.column class(col class)
+
+-in bootstrap grid row we can create columns with size 12,if column size is exceeded more thanm 12 size then column start from new row.
+ex:<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 myborder">column</div>
+-->the above one we use like media quesry.
+-->1200>=xl
+-->=992-lg
+-->=768-md
+-->=575-sm
