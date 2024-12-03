@@ -1,0 +1,29 @@
+3-12-24
+
+*react:
+    -it is javascript library.
+    -it is used to create rich user interface.
+    -it create single page application.
+
+*technologies used with react:
+    -html,css,js(basic,ES5,ES6,oops)
+
+*software required for react:
+    -node js.
+        -node -v
+        -npm -v
+    -editor(vs code)
+
+*how to create react project:
+    1.by using npm: need to install configuration file.
+        step1:npm install -g create-react-app.
+        step2: create-react-app appname
+        step3: cd appname
+        step4: npm start
+
+    2.by using npx: no need to install configuration file.
+        step1: npx create-react-app appname
+        step2: cd appname
+        step3:npm start
+        
+    3.by using vite: it create project with the minimum package.
